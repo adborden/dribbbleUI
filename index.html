@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>adborden's Dribbble Show</title>
+        <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+        <script src="js/underscore-min.js" type="text/javascript"></script>
+        <script src="js/backbone-min.js" type="text/javascript"></script>
+        <script src="js/page.js" type="text/javascript"></script>
+        <link href="css/skeleton.css" rel="stylesheet" type="text/css" />
+        <link href="css/page.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body class="container">
+        <div id="header" class="row">
+            <h1>adborden's Dribbble Show</h1>
+            <p>This is an exercise to show some javascript work. The idea was to create a dynamic image library by pulling data from an external site (<a href="http://www.dribbble.com/">Dribbble</a>).</p>
+            <h2>Details</h2>
+            <p>Load the first nine items from each list (popular, debuts, everyone). Render the shots dynamically when the list's tab is clicked. Reloading the page should not be necessary. <strike>Add to the list each time the user clicks &quot;Load More&quot;</strike> or as the user scrolls.</p>
+            <h4>Featuring</h4>
+            <div class="six columns">
+                <ul>
+                    <li><a href="http://www.dribbble.com/api">Dribbble API</a></li>
+                    <li><a href="http://www.getskeleton.com/">Skeleton grid</a></li>
+                    <li><a href="http://www.jquery.com/">jQuery</a></li>
+                    <li><a href="http://www.backbonejs.org/">Backbone.js</a></li>
+                </ul>
+            </div>
+            <div class="six columns">
+                <ul>
+                    <li><a href="http://www.underscorejs.org/">Underscore.js</a></li>
+                    <li>Infinite scroll</li>
+                    <li>Responsive UI (try resizing)</li>
+                    <li>and more...</li>
+                </ul>
+            </div>
+        </div>
+        <div id="content" class="row">
+            <div id="nav" class="three columns">
+                <div id="debuts" class="collection"><h3>Debuts</h3></div>
+                <div id="popular" class="collection"><h3>Popular</h3></div>
+                <div id="everyone" class="collection"><h3>Everyone</h3></div>
+            </div>
+            <div id="designs" class="offset-by-three"></div>
+        </div>
+    </body>
+</html>
